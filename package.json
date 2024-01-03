@@ -1,0 +1,34 @@
+{
+  "name": "postman-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 6686",
+    "build": "next build",
+    "start": "next start -p 6658",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
+    "axios": "^1.6.3",
+    "dayjs": "^1.11.10",
+    "next": "14.0.4",
+    "next-auth": "^4.24.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^9.1.3",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akiif/postman-clone.git"
+  },
+  "license": "MIT"
+}
